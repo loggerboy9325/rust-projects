@@ -1,12 +1,13 @@
 fn main() {
-    let mut x = 5;
-    println!("The calue of x is: {}",x);
-    x = 6;
-    println!("The value of x is {}", x);
+    let a = [10, 20 ,30, 40, 50];
 
-    const NUMBER_TEST: u32 = 10000;
-
-    println!("The value of number is {}", NUMBER_TEST);
-
+    for element in a.iter() {
+        println!("The value is: {}", element)
+    }
+    for number in 1..4 {
+        println!("{}", number);
+    }
+    
 
 }
+
